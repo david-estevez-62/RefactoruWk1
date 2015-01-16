@@ -1,0 +1,106 @@
+* {
+	box-sizing:border-box;
+}
+ul {
+	text-align: center;
+}
+ul li {
+	display:inline;
+	padding: 15px;
+}
+a {
+	text-decoration: none;
+}
+#home {
+	background:blue;
+	border:1px solid black;
+	padding:10px;
+
+	float: left;
+	width: 50%;
+}
+#aboutus {
+	background:green;
+	border:1px solid black;
+	padding:10px;
+
+	float: left;
+	width: 50%;
+}
+#contactus {
+background:red;
+	border:1px solid black;
+	padding:10px;
+
+	float: left;
+	width: 50%;
+}
+#mission {
+background:orange;
+	border:1px solid black;
+	padding:10px;
+
+	float: left;
+	width: 50%;
+}
+#mission1 {
+	background:grey;
+	border:1px solid black;
+	padding:10px;
+
+	float: left;
+	width: 50%;
+}
+#contactus1 {
+	background:yellow;
+	border:1px solid black;
+	padding:10px;
+
+	float: left;
+	width: 50%;
+}
+
+div.img {
+	margin: 5px;
+	padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.img img {
+	display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+	margin: 5px;
+}
+
+@media (max-width: 650px) {
+  ul {
+  	display:inline-block;
+  }
+
+  ul li {
+  	float:left;
+
+	padding-left: 10px;
+  }
+
+  img {
+  	width:25%;
+  	
+  }
+}
+.gallery {
+	padding:30px;
+}
+
